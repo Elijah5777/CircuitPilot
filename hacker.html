@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hacking Tools</title>
+  <link rel="icon" type="image/png" href="favicon-hacker.png"> <!-- Change this file to your hacker favicon -->
+  <style>
+    body {
+      margin: 0;
+      font-family: monospace;
+      background: #000;
+      color: #00ff00;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .card {
+      background: #020202;
+      border: 1px solid #00ff00;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 0 10px #00ff00aa;
+      transition: 0.3s;
+    }
+    .card:hover {
+      box-shadow: 0 0 20px #00ff00;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #00ff00aa;
+    }
+    a {
+      color: #00ff00;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hacking Tools</h1>
+    <p><a href="index.html">⬅ Back to home</a></p>
+  </header>
+  <section class="products">
+    <div class="card">
+      <h2>BadUSB Stick</h2>
+      <p>ESP32-C3 powered, runs custom payloads over USB.</p>
+    </div>
+    <div class="card">
+      <h2>ESP32 WiFi Sniffer</h2>
+      <p>For network testing and WiFi shenanigans 💀</p>
+    </div>
+  </section>
+  <footer>
+    &copy; 2025 Elijah's Projects
+  </footer>
+</body>
+</html>
