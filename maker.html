@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maker Products</title>
+  <link rel="icon" type="image/png" href="favicon-maker.png"> <!-- Change this file to your maker favicon -->
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: #161b22;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .card {
+      background: #161b22;
+      padding: 1rem;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+    .card:hover {
+      box-shadow: 0 0 10px #58a6ff88;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #161b22;
+      font-size: 0.9rem;
+      color: #8b949e;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Maker Products</h1>
+    <p><a href="index.html">⬅ Back to home</a></p>
+  </header>
+  <section class="products">
+    <div class="card">
+      <h2>Custom ESP32 Board</h2>
+      <p>Tiny, Wi-Fi ready, perfect for IoT builds.</p>
+    </div>
+    <div class="card">
+      <h2>Raspberry Pi Hat</h2>
+      <p>PoE, GPIO magic, and modular design.</p>
+    </div>
+  </section>
+  <footer>
+    &copy; 2025 Elijah's Projects
+  </footer>
+</body>
+</html>
